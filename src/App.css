@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+ text-align: right; 
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.QuoteBox{
+  width: 500px;
+  height: 300px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 30px;
+  background: rgb(112, 112, 112);
+  position: relative;
+  display: inline-block;
+}
+
+h2{
+  text-align: start;
+  margin-bottom: -5px;
+
+} 
+
+#i{
+  font-size: 50px;
+}
+
+.txt{
+  max-height: 100px;
+}
+
+button{
+  font-size: 30px;
+  width: 50px;
+  border-radius: 50px;
+  color: rgb(112, 112, 112);
+  border: 5px solid rgb(112, 112, 112) ;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 80px;
+  position: absolute; /*es intencional que el botón esté salido del contenedor :) */ 
+}
